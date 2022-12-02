@@ -1,4 +1,4 @@
-@wip
+
 Feature: US 0101 QualityDemy
 
 Scenario: Kullanici basarili bir sekilde giris yapabilmeli
