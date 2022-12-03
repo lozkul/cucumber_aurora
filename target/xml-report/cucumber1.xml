@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.752">
-    <testcase classname="US0102 Requirement ekleme testi - Quality Demy US30" name="Requirements should be addable with the &quot;+&quot; button" time="14.545">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.445">
+    <testcase classname="US 0104 Automation Login Test" name="Kullanici basarili biir sekilde giris yapabilmeli" time="15.298">
         <system-out>
-            <![CDATA[Given Launch browser and Go to url..........................................passed
-Then Click on Login button..................................................passed
-Then Enter correct instructor email address and password....................passed
-Then Click on the Instructor button.........................................passed
-Then Click on Course Manager from the menu under Navigation.................passed
-Then Click on Add New Course in the upper right corner of the page..........passed
-Then Click Requirements from the row under the Course Add Form..............passed
-Then Add a box by pressing the green + button...............................passed
-And Log out by closing the page.............................................passed
+            <![CDATA[Given Kullanici "myAutomationUrl" sayfasina gider...........................passed
+Then Kullanici Signup butonuna tiklar.......................................passed
+Then Kullanici mail kutusuna "email" girer..................................passed
+Then Kullanici password kutusuna "password" girer...........................passed
+Then Kullanici login butonuna tiklar........................................passed
+Then Kullanici Automation sayfasina girdigini test eder.....................passed
+And Sayfayi kapatir.........................................................passed
 ]]>
         </system-out>
     </testcase>

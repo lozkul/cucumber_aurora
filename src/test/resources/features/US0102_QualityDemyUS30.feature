@@ -1,4 +1,4 @@
-@wip
+
 Feature: US0102 Requirement ekleme testi - Quality Demy US30
 
 
