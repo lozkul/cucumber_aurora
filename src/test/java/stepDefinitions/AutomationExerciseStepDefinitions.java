@@ -36,4 +36,18 @@ public class AutomationExerciseStepDefinitions {
         Assert.assertTrue(automationExercisePage.logoutButonu.isDisplayed());
     }
 
+    @Then("Kullanici sayfaya giris yapilamadigini test eder")
+    public void kullaniciSayfayaGirisYapilamadiginiTestEder() {
+        Assert.assertTrue(automationExercisePage.loginButonu.isDisplayed());
+    }
+
+    /*bu testin negatif halini de gerekirse yapabiliriz. ancak bunda negatif testi try catch icine almak lazim
+    @Then("Kullanici sayfaya giris yapilamadigini test eder")
+    public void kullaniciSayfayaGirisYapilamadiginiTestEder() throws InterruptedException {
+        try {
+            Assert.assertFalse(automationExercisePage.logoutButonu.isDisplayed());
+        } catch (Exception e) {
+            Thread.sleep(1000);
+        }
+    }*/
 }

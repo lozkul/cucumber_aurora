@@ -1,4 +1,4 @@
-@wip
+
   Feature: US 0104 Automation Login Test
 
     Scenario: Kullanici basarili biir sekilde giris yapabilmeli
