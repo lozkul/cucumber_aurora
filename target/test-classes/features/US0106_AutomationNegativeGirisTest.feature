@@ -1,4 +1,4 @@
-@wip
+
   Feature: US 0106 Automation Negative Giris Testi
 
     Scenario Outline: Kullanici negative bilgiler gonderdiginde siteye giris yapilamaz
